@@ -177,7 +177,7 @@ function mos_greviews_func( $atts = array(), $content = '' ) {
             }
             
             $return .= '</div /.card>';
-            if ( isset( $atts['view_link'] ) ) $return .= '<a href="'.esc_url($atts['view_link']).'">';
+            if ( isset( $atts['view_link'] ) ) $return .= '<a target="_blank" href="'.esc_url($atts['view_link']).'">';
             $return .= '<div class="review-unit-bottom">';
             /*IMAGE*/            
             if ( isset( $atts['show_image_of_reviews'] ) and $atts['show_image_of_reviews'] == true ) $return .= '<img class="review-img" src="'.$review[0][2].'" width="50" height="50" />';
