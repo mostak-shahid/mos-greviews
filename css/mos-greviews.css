@@ -1,0 +1,44 @@
+.greviews-company-name{
+    font-weight: 700;
+    text-align: center;    
+    margin-bottom: 20px;
+}
+.mos-greviews .review-unit .stars-area {
+    float: left;
+    margin-right: 10px;
+}
+.mos-greviews.owl-carousel .owl-item .review-unit img.review-img{
+    width:60px;
+  	height:60px;
+    float: left;
+    margin-right: 10px;
+}
+.mos-greviews .card {
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #eaeaea;
+    background-clip: border-box;
+    border-radius: .25rem;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.mos-greviews .card:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #eaeaea transparent transparent transparent;
+    position: absolute;
+    left: 15px;
+    bottom: -15px;
+}
+.mos-greviews .review-unit-bottom{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
